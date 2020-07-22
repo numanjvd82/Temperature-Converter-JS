@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
+  <title>Temperature Converter</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="heading animate__animated animate__zoomInDown">Temperature Converter</h1>
+  <form class="form">
+    <fieldset>
+      <legend>Converter</legend>
+    <label for="Celsius"></label>
+    <input type="number" placeholder="Enter Celsius" class="input" required>
+   <button type="button" class="submit-button">Convert</button>
+  </fieldset>
+  </form>
+  
+   <!-- Results -->
+   
+   <div class="results" id="results">
+    <fieldset>
+    <h2 class="heading-2">Conversion Result</h2>
+  </fieldset>
+    <h1 class="heading-3">Here is Conversion Result</h1>
+    <input type="text" animate__animated animate__zoomInRight" id="result-output" disabled>
+  </div>
+  </div>
+  
+
+
+
+  
+<script src="app.js"></script>
+</body>
+</html>
